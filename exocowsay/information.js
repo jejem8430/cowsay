@@ -4,8 +4,9 @@ let myuser = {
 }
 module.exports = {
 
-    myuser
-}
-console.log(myuser.name, myuser.campus);
+    name: myuser.name,
+    campus: myuser.campus,
+};
+
 
 
